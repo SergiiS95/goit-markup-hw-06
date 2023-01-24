@@ -520,6 +520,7 @@ body {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .footer-btn-icon {
@@ -661,7 +662,7 @@ body {
   left: 50%;
   width: 408px;
   min-width: none;
-  height: 576px;
+  min-height: 584px;
   transform: translate(-50%, -50%) scale(1) rotate(0);
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -687,6 +688,7 @@ body {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -810,7 +812,8 @@ body {
   border-radius: 2px;
   fill: #f4f4fd;
 }
-.input-check {
+.privacy-link{
+  color: #4D5AE5;
 }
 
 .form-btn {
@@ -833,6 +836,7 @@ body {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .form-btn:hover,
 .form-btn:focus {
